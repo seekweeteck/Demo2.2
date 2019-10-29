@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.edu.tarc.demo22.MainActivity">
+    <!-- TODO 3: Insert a SearchView -->
+    <item
+        android:id="@+id/action_zoom_in"
+        android:icon="@drawable/ic_zoom_in_black_24dp"
+        android:title="@string/zoom_in"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_zoom_out"
+        android:icon="@drawable/ic_zoom_out_black_24dp"
+        android:title="@string/zoom_out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
